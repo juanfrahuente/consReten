@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+  <!-- Generated from /consulta/ConsultaController.java on Wed Feb 07 12:14:13 CLST 2018 -->
+  <form-beans>
+    <form-bean className="org.apache.beehive.netui.pageflow.config.PageFlowActionFormBean" name="beginForm_nonFlowScoped" type="consulta.ConsultaController$BeginForm"/>
+    <form-bean className="org.apache.beehive.netui.pageflow.config.PageFlowActionFormBean" name="beginForm" type="consulta.ConsultaController$BeginForm"/>
+  </form-beans>
+  <global-exceptions/>
+  <global-forwards>
+    <forward name="_auto" path=""/>
+  </global-forwards>
+  <action-mappings>
+    <action className="org.apache.beehive.netui.pageflow.config.PageFlowActionMapping" input="error" name="beginForm" parameter="consulta.ConsultaController" path="/ConsDetalle" scope="request" type="org.apache.beehive.netui.pageflow.internal.FlowControllerAction" validate="true">
+      <set-property property="formMember" value="beginForm"/>
+      <forward name="success" path="/RespConsDetalle.jsp"/>
+      <forward name="error" path="/RespConsDetalle.jsp">
+        <!-- forward "error" (validationErrorForward) -->
+      </forward>
+    </action>
+    <action className="org.apache.beehive.netui.pageflow.config.PageFlowActionMapping" name="beginForm" parameter="consulta.ConsultaController" path="/ExportaExel" scope="request" type="org.apache.beehive.netui.pageflow.internal.FlowControllerAction" validate="false">
+      <set-property property="formMember" value="beginForm"/>
+      <forward contextRelative="true" name="success" path="/archivoExcel.jsp"/>
+    </action>
+    <action className="org.apache.beehive.netui.pageflow.config.PageFlowActionMapping" input="error" name="beginForm" parameter="consulta.ConsultaController" path="/begin" scope="request" type="org.apache.beehive.netui.pageflow.internal.FlowControllerAction" validate="true">
+      <set-property property="formMember" value="beginForm"/>
+      <forward name="success" path="/RespConsReten.jsp"/>
+      <forward name="error" path="/RespConsReten.jsp">
+        <!-- forward "error" (validationErrorForward) -->
+      </forward>
+    </action>
+  </action-mappings>
+  <controller className="org.apache.beehive.netui.pageflow.config.PageFlowControllerConfig" inputForward="true" processorClass="org.apache.beehive.netui.pageflow.PageFlowRequestProcessor">
+    <set-property property="isReturnToPageDisabled" value="true"/>
+    <set-property property="isReturnToActionDisabled" value="true"/>
+    <set-property property="sharedFlows" value="__global=global.Global"/>
+    <set-property property="controllerClass" value="consulta.ConsultaController"/>
+  </controller>
+  <message-resources key="_defaultMsgs" null="true" parameter="org.apache.beehive.netui.pageflow.validation.defaultMessages"/>
+  <message-resources null="true" parameter="messages.Validation"/>
+</struts-config>

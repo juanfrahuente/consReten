@@ -1,0 +1,2794 @@
+body {
+
+	background-color: #FFFFFF;
+
+	margin: 1px;
+
+}
+
+
+
+/*	COLOREES INTERCALADOS DE LAS COLUMNAS DE LAS TABLAS	*/
+
+.TR_bgColor_1{
+
+	background-color: #EEF3F7;	/*celestito*/
+
+}
+
+.TR_bgColor_2{
+
+	background-color: #FFFFFF;	/*blanco*/
+
+}
+
+/*	TABLA PRINCIPAL	*/
+
+.bordetabla {
+
+	/*	border: 1px solid #ABC7D3;	*/
+
+}
+
+
+
+/*	FONDO GRIS DE LA CELDA	*/
+
+.fondo1{
+
+	background-color:#EEF3F7;
+
+}
+
+
+
+/*	TITULO PRINCIPAL	*/
+
+.tituloTabla {
+
+/*
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 19px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	margin-top: 2px;
+
+	margin-right: 2px;
+
+	margin-bottom: 1px;
+
+	margin-left: 2px;
+
+	background-color:#EEF3F7;
+
+*/
+
+	color: #FFFFFF;
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 16px;
+
+	font-style: normal;
+
+	font-weight:bold;
+
+	background-color: #013E7F;
+
+	text-decoration: none;
+
+	text-align:center;
+
+}
+
+/*	titulo de la página	*/
+
+.tituloSecciones{
+
+/*	background-color: #013E7F;	*/
+
+	background-image:url(../images/barra_azul2.gif);
+
+	color: #FFFFFF;
+
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+
+	/*	font-family: Verdana, Arial, Helvetica, sans-serif;	*/
+
+	font-size: 16px;
+
+	font-style: normal;
+
+	font-weight:bold;
+
+	text-decoration: none;
+
+/*	margin: 1px;	*/
+
+	text-align:center;
+
+	padding-bottom: 3px;
+
+	vertical-align:bottom;
+
+}
+
+.secciones{
+
+/*	background-color: #013E7F;	*/
+
+	background-image:url(../images/fondo.gif);
+
+	color: #FFFFFF;
+
+	border-color: #013E7F;
+
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+
+	font-size: 16px;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	text-decoration: none;
+
+/*	margin: 10px;	*/
+
+	text-align:center;
+
+	padding-bottom: 4px;
+
+}
+
+
+
+/*	TITULO DE LA COLUMNA	*/
+
+.tituloColumna {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-weight: bold;
+
+	margin: 2px;
+
+	color: #003366;
+
+}
+.ClasificacionPF {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	/*	font-family: Arial, Helvetica, sans-serif;	*/
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	margin: 2px;
+
+	color: #003366;
+
+}
+
+
+/*	TITULO DE LA COLUMNA	*/
+
+.fondoTituloColumna {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-weight: bold;
+
+	margin: 2px;
+
+	color: #003366;
+
+	background-color:#a6c4dd;
+
+}
+
+
+
+.fondo2{
+
+	/*	background-color:#a6c4dd;	*/
+
+	background-color:#a6c4dd;
+
+}
+
+
+
+/*	LINKS	*/
+
+.ofi_virtual:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+
+
+.ofi_virtual:visited {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.ofi_virtual:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF6600;
+
+	font-style: normal;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.ofi_virtual:active {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF9933;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+	}
+
+/*	PARRAFOS	*/
+
+.parrafoGrande {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 16px;
+
+	font-weight: normal;
+
+	margin: 2px;
+
+	color: #003366;
+
+}
+
+/*	IGUAL A <P>, PERO PARA SER USADA EN OTRAS TAG (SPAM)	*/
+
+.parrafo {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	margin: 2px;
+
+	color: #003366;
+
+}
+
+
+
+li {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-weight: normal;
+
+	margin: 2px;
+
+	color: #003366;
+
+}
+
+
+
+
+
+.fechaBarraSuperior {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #666666;
+
+	margin: 2px;
+
+}
+
+
+
+
+
+.bordetablaencuesta {
+
+	border: 1px solid #B5D6A9;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.callcenter {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF3300;
+
+}
+
+.fotonoticia {
+
+	border: 1px solid #ABC7D3;
+
+	margin-top: 1px;
+
+	margin-right: 0px;
+
+	margin-bottom: 2px;
+
+	margin-left: 4px;
+
+}
+
+
+
+
+
+h1 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 19px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	margin-top: 2px;
+
+	margin-right: 2px;
+
+	margin-bottom: 1px;
+
+	margin-left: 2px;
+
+}
+
+/*
+
+li {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	margin-top: 2px;
+
+	margin-right: 2px;
+
+	margin-bottom: 2px;
+
+	margin-left: 6px;
+
+	padding: 1px;
+
+}
+
+ul {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	margin: 2px;
+
+}
+
+
+
+*/
+
+h2 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF6600;
+
+	margin-top: 4px;
+
+	margin-right: 2px;
+
+	margin-bottom: 4px;
+
+	margin-left: 2px;
+
+}
+
+h3 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	padding: 0px;
+
+	margin-top: 1px;
+
+	margin-right: 1px;
+
+	margin-bottom: 2px;
+
+	margin-left: 1px;
+
+}
+
+
+
+h5 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #FFFFFF;
+
+	margin: 0px;
+
+	padding: 0px;
+
+}
+
+
+
+.registrese:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #003333;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.registrese:visited {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #003366;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.registrese:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF6600;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.registrese:active {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF9900;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+/*
+
+.textoblanco:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #FFFFFF;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.textoblanco:visited {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #FFFFFF;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.textoblanco:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FFFF00;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.textoblanco:active {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FFCC33;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.barrasuper:link {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #315C80;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.barrasuper:link {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #315C80;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.barrasuper:visited {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #315C80;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.barrasuper:hover {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #0099CC;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.barrasuper:active {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #0033CC;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+*/
+
+.linkpie:link {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-weight: normal;
+
+	color: #666666;
+
+	text-align: center;
+
+	margin: 2px;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+}
+
+.linkpie:visited {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-weight: normal;
+
+	color: #666666;
+
+	text-align: center;
+
+	margin: 2px;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+}
+
+.linkpie:hover {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-weight: normal;
+
+	color: #666666;
+
+	text-align: center;
+
+	margin: 2px;
+
+	font-style: normal;
+
+	text-decoration: underline;
+
+}
+
+.linkpie:active {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-weight: normal;
+
+	color: #666666;
+
+	text-align: center;
+
+	margin: 2px;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+}
+
+/*
+
+.linkpie:link {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.linkpie:visited {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.linkpie:hover {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #00CCFF;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.linkpie:active {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #0099CC;
+
+	text-decoration: underline;
+
+	border-bottom-width:medium;
+
+	margin: 1px;
+
+}
+
+*/
+
+.textoAzul{
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #013E7F;
+
+	padding: 0px;
+
+	margin-top: 1px;
+
+	margin-right: 1px;
+
+	margin-bottom: 2px;
+
+	margin-left: 1px;
+
+}/*
+
+		TEXTOBLANCO = BARRASUPER = VERMAS = OFI_VIRTUAL
+
+*/
+
+.textoblanco:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #FFFFFF;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.textoblanco:visited {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #FFFFFF;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.textoblanco:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FFA340;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.textoblanco:active {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FFFFFF;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+
+
+/*
+
+		BARRASUPER = VERMAS = OFI_VIRTUAL
+
+*/
+
+.barrasuper:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.barrasuper:visited {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.barrasuper:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FFA340;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.barrasuper:active {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF9933;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+
+
+.vermas{
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}	
+
+.vermas:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.vermas:visited {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.vermas:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FFA340;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.vermas:active {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF9933;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+
+
+/*
+
+.vermas:link {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.vermas:visited {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.vermas:hover {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF3300;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.vermas:active {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF6633;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+*/
+
+.linkprincipal:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	color: #013E7F;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.linkprincipal:visited {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	color: #013E7F;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.linkprincipal:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	color: #013E7F;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.linkprincipal:active {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	color: #013E7F;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+
+
+/*
+
+.linkprincipal:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.linkprincipal:visited {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.linkprincipal:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	color: #FF6600;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.linkprincipal:active {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	color: #FF9933;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+*/
+
+
+
+.ofi_virtual:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.ofi_virtual:visited {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.ofi_virtual:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FFA340;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.ofi_virtual:active {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF9933;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+
+
+/*
+
+.ofi_virtual:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.ofi_virtual:visited {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.ofi_virtual:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF6600;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.ofi_virtual:active {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF9933;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+*/
+
+.tramite:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #FFA340;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.tramite:visited {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #FFA340;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.tramite:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FFA340;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.tramite:active {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FFA340;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+/*
+
+.tramite:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #E85C00;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.tramite:visited {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #FF6600;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.tramite:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #F2B600;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.tramite:active {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF9933;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+*/
+
+.cartola:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	color: #FFA340;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+	}
+
+.cartola:visited {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	color: #FFA340;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.cartola:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	color: #FFA340;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.cartola:active {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	color: #FFA340;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+/*	
+
+.cartola:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	color: #E85C00;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+	}
+
+.cartola:visited {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-weight: bold;
+
+	color: #FF6600;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.cartola:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	color: #F2B600;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.cartola:active {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	color: #FF9933;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+*/
+
+	
+
+.menu_ofi_virtual:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-weight: normal;
+
+	color: #35596A;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.menu_ofi_virtual:visited {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-weight: normal;
+
+	color: #35596A;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.menu_ofi_virtual:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF6600;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.menu_ofi_virtual:active {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF9933;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+
+
+.fecha_ {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #666666;
+
+	margin: 2px;
+
+}
+
+
+
+.pie {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-weight: normal;
+
+	color: #666666;
+
+	text-align: center;
+
+	margin: 2px;
+
+}
+
+
+
+
+
+
+
+#form1 {
+
+	margin: 0px;
+
+	padding: 0px;
+
+}
+
+p {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-weight: normal;
+
+	margin: 2px;
+
+	color: #003366;
+
+}
+
+h4 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	font-style: normal;
+
+	color: #006600;
+
+	margin: 1px;
+
+}
+
+.tex_encuesta {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #009900;
+
+	font-style: normal;
+
+}
+
+.boton {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	text-transform: capitalize;
+
+	color: #006633;
+
+	border-top-width: 1px;
+
+	border-right-width: 1px;
+
+	border-bottom-width: 1px;
+
+	border-left-width: 1px;
+
+	border-top-color: #73B05B;
+
+	border-right-color: #73B05B;
+
+	border-bottom-color: #73B05B;
+
+	border-left-color: #73B05B;
+
+	background-color: #CEE3C6;
+
+	cursor: default;
+
+	margin: 4px;
+
+}
+
+.boton2 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	color: #003366;
+
+	background-color: #FFFFFF;
+
+	border: 1px solid #7B93B7;
+
+}
+
+#form2 input {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #003366;
+
+	border: 1px solid #568992;
+
+}
+
+#form1 input {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	color: #003366;
+
+	border: 1px solid #50657C;
+
+}
+
+#form1 select {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #003366;
+
+	border: 1px solid #50657C;
+
+}
+
+
+
+
+
+#form2 textarea {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-weight: normal;
+
+	color: #003366;
+
+	border: 1px solid #568992;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.texto {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10px;
+
+	font-weight: normal;
+
+	margin: 2px;
+
+	color: #003366;
+
+}
+
+
+
+.Links:link {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.Links:visited {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #0066CC;
+
+	font-style: normal;
+
+	text-decoration: none;
+
+	margin: 1px;
+
+}
+
+.Links:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF6600;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+
+.Links:active {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #FF9933;
+
+	text-decoration: underline;
+
+	margin: 1px;
+
+}
+lnker {
+
+	FONT-SIZE: 10px; FONT-FAMILY: "Trebuchet MS", Arial, sans-serif;
+
+}
+
+.tit_noticia {  
+
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; color: #0066CC; text-decoration: none;
+
+}
+
+.bajada_noticia {  
+
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #0066CC; text-decoration: none;
+
+}
+
+.bajada_noticia:hover {  
+
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FEB623; text-decoration: underline;
+
+}
+
+.olvido_clave { 
+
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; font-weight: normal; color: #0066CC ; text-decoration: none;
+
+}
+
+.rut_clave { 
+
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: #0066CC ;
+
+}
+
+.obtenga_clave { 
+
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #003366; text-decoration: none;
+
+}
+
+.obtenga_clave:hover { 
+
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: 0066CC; text-decoration: underline;
+
+}
+
+.sin_puntos { 
+
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; font-weight: normal; color: #0066CC; 
+
+}
+
+.texto_menu_up{ 
+
+background-color: #006699;
+
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; font-weight: normal; color: #FFFFFF; text-decoration: none;
+
+}
+
+.texto_menu_down{ 
+
+background-color: #00334c;
+
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: #FFFFFF; text-decoration: none;
+
+}
+
+
+
+.texto_menu_down2{ 
+
+    background-color: #30557A;
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+
+    font-size: 11px;
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    color: #FFFFFF; 
+
+    text-decoration: none;
+
+}
+
+
+
+
+
+.texto_menu:hover { 
+
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: #FEB623 ; text-decoration: underline
+
+}
+
+
+
+.menu_separador{
+
+background-color: #7197AB;
+
+}
+
+
+
+.instrucciones{ 
+
+font-family: Arial; font-size: 11.8px; color: #006699; font-style: normal; font-weight: bold
+
+}
+
+
+
+.fac {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	color: #FFFFFF;
+
+	text-decoration: none;
+
+	background-color: #006699;
+
+
+
+
+
+}
+
+.unnamed1 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 16px;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	color: #003366;
+
+
+
+}
+
+.fecha {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 11px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #003366;
+
+
+
+}
+
+
+
+.fecha1 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 9px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	color: #003366;
+
+
+
+}
+
+.tituloup { 
+
+font-family: Verdana; font-size: 12px; font-style: normal; font-weight: normal ; color: #000000
+
+}
+
+.tituloup2 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 18px;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	color: #003366;
+
+
+
+}
+
+.bajada {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	color: #006699;
+
+}
+
+.noticia1 { 
+
+font-family: Arial; font-size: 11.8px; color: #003366; font-style: normal; font-weight: normal 
+
+}
+
+
+
+.noticia { 
+
+font-family: Arial; font-size: 11.8px; color: #0066CC; font-style: normal; font-weight: normal 
+
+}
+
+
+
+.bajadaCopy {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	background-color: #CECECE;
+
+	color: #000066;
+
+	background-attachment: scroll;
+
+	background-position: left top;
+
+	text-align: center;
+
+	vertical-align: middle;
+
+	border-top: 1px none;
+
+	border-right: 1px solid #B3B1B1;
+
+	border-bottom: 1px solid #B3B1B1;
+
+	border-left: 1px none;
+
+	height: 20px;
+
+	width: 90px;
+
+}
+
+
+
+.historico { 
+
+font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: #000000; text-decoration: none
+
+}
+
+.historico:hover { 
+
+font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: #FFFFFF; text-decoration: underline
+
+}
+
+.imp_articulo { 
+
+font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: #000000; text-decoration: none
+
+}
+
+.imp_articulo:hover { 
+
+font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: #FFFFFF; text-decoration: underline
+
+}
+
+.titulo_historico { 
+
+font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: #FFFFFF; text-decoration: none
+
+}
+
+.titulo_imp_articulo { 
+
+font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: #FFFFFF; text-decoration: none
+
+}
+
+.volver { 
+
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; color: #000000; text-decoration: none
+
+}
+
+.volver:hover { 
+
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; color: #FEB623 ; text-decoration: underline
+
+}
+
+
+
+.menu_izq a:link {
+
+	COLOR: #FFFFFF; TEXT-DECORATION: none
+
+}
+
+.menu_izq a:visited {
+
+	COLOR: #FFFFFF; TEXT-DECORATION: none
+
+}
+
+.menu_izq A:hover {
+
+	COLOR: #FFAA00; TEXT-DECORATION: underline;
+
+}
+
+.menu_izq a:active {
+
+	COLOR: #FFFFFF; TEXT-DECORATION: none
+
+}
+
+
+
+.menu_izq
+
+{
+
+    margin: 0px;
+
+    padding: 0px;
+
+    border-style: solid;
+
+    border-width: 0px;
+
+    border-color: #000000;
+
+    background-color: #006699;
+
+    /* Fix for IE height problem; uses Mozilla's recognition of and IE's ignorance of C-style line comment... */
+
+    /* height: 100%; */
+
+}
+
+
+
+.sub_menu_izq a:link {
+
+	COLOR: #FFFFFF; TEXT-DECORATION: none
+
+}
+
+.sub_menu_izq a:visited {
+
+	COLOR: #FFFFFF; TEXT-DECORATION: none
+
+}
+
+.sub_menu_izq A:hover {
+
+	COLOR: #FFAA00; TEXT-DECORATION: none;
+
+}
+
+.sub_menu_izq a:active {
+
+	COLOR: #FFFFFF; TEXT-DECORATION: none
+
+}
+
+
+
+.sub_menu_izq
+
+{
+
+font-family: Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; font-weight: normal; color: #FFFFFF;
+
+    text-decoration: underline;
+
+    margin: 0px;
+
+    padding: 0px;
+
+    border-style: solid;
+
+    border-width: 0px;
+
+    border-color: #318FE7;
+
+    background-color: #318FE7;
+
+    /* Fix for IE height problem; uses Mozilla's recognition of and IE's ignorance of C-style line comment... */
+
+    /*height: 100%;*/
+
+}
+
+
+
+
+
+
+
+
+
+.boton {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	text-transform: capitalize;
+
+	color: #006633;
+
+	border-top-width: 1px;
+
+	border-right-width: 1px;
+
+	border-bottom-width: 1px;
+
+	border-left-width: 1px;
+
+	border-top-color: #73B05B;
+
+	border-right-color: #73B05B;
+
+	border-bottom-color: #73B05B;
+
+	border-left-color: #73B05B;
+
+	background-color: #CEE3C6;
+
+	cursor: default;
+
+	margin: 4px;
+
+}
+
+.boton2 {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	color: #003366;
+
+	background-color: #FFFFFF;
+
+	border: 1px solid #7B93B7;
+
+}
+
+
+
+html {
+
+	/*
+
+		Scroll bars
+
+	
+
+	scrollbar-base-color: ;
+
+	*/
+
+	scrollbar-face-color: #E1F1FF;
+
+	scrollbar-arrow-color: #03508f;
+
+/*	scrollbar-3dlight-color: ;
+
+	scrollbar-highlight-color: ;
+
+	scrollbar-shadow-color: ;
+
+	scrollbar-darkshadow-color: ;
+
+*/
+
+}
+
+
+
+body {
+
+	background-color: #FFFFFF;
+
+	margin: 1px;
+
+}

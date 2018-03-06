@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.apt.aptEnabled=true
+org.eclipse.jdt.apt.genSrcDir=.apt_generated
+org.eclipse.jdt.apt.processorOptions/web.content.root=%PROJECT_DIR%/WebContent
+org.eclipse.jdt.apt.processorOptions/web.source.root=%PROJECT_DIR%/src
+org.eclipse.jdt.apt.reconcileEnabled=true

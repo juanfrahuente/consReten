@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+  <!-- Generated from /global/Global.java on Wed Feb 07 11:00:52 CLST 2018 -->
+  <form-beans/>
+  <global-exceptions>
+    <exception className="org.apache.beehive.netui.pageflow.config.PageFlowExceptionConfig" handler="handleException" key="java.lang.Exception" type="java.lang.Exception">
+      <set-property property="isHandlerMethod" value="true"/>
+    </exception>
+    <exception className="org.apache.beehive.netui.pageflow.config.PageFlowExceptionConfig" handler="handlePageFlowException" key="org.apache.beehive.netui.pageflow.PageFlowException" type="org.apache.beehive.netui.pageflow.PageFlowException">
+      <set-property property="isHandlerMethod" value="true"/>
+    </exception>
+  </global-exceptions>
+  <global-forwards>
+    <forward name="_auto" path=""/>
+    <forward contextRelative="true" name="errorPage" path="/error.jsp">
+      <!-- forward "errorPage" from exception-handler handleException -->
+    </forward>
+  </global-forwards>
+  <action-mappings>
+    <action parameter="global.Global" path="/home" scope="request" type="org.apache.beehive.netui.pageflow.internal.FlowControllerAction" validate="false">
+      <forward contextRelative="true" name="home" path="/Controller.jpf"/>
+    </action>
+  </action-mappings>
+  <controller className="org.apache.beehive.netui.pageflow.config.PageFlowControllerConfig" inputForward="true" processorClass="org.apache.beehive.netui.pageflow.PageFlowRequestProcessor">
+    <set-property property="isSharedFlow" value="true"/>
+    <set-property property="isReturnToPageDisabled" value="true"/>
+    <set-property property="isReturnToActionDisabled" value="true"/>
+    <set-property property="sharedFlows" value="__global=global.Global"/>
+    <set-property property="controllerClass" value="global.Global"/>
+    <set-property property="isMissingDefaultMessages" value="true"/>
+  </controller>
+  <message-resources key="_defaultMsgs" null="true" parameter="org.apache.beehive.netui.pageflow.validation.defaultMessages"/>
+</struts-config>
